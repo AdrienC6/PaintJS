@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);}
+
+#paint {
+    width : 80%;
+    height : 90vh;
+    margin : auto;
+
+    #tools{
+        display : flex;
+        flex-direction: row;
+        margin : auto;
+        justify-content: center;
+        padding : 15px 0;
+        height : 10%;
+        background : silver;
+        align-items: center;
+        #selected{
+            height : 30px;
+            width : 80px;
+            border: 1px solid white;
+            margin : 0 2px 0 100px;
+            border-radius : 20px;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.10);
+            }
+        }
+        #text-selected {
+            margin : 0 5px;
+        }
+        #color {
+            margin : 0 10px;
+        }
+    }
+    #board {
+        height : 90%;
+        width : 100%;
+        background-color: white;
+    }
+}

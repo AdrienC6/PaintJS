@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff8177), color-stop(0%, #ff867a), color-stop(21%, #ff8c7f), color-stop(52%, #f99185), color-stop(78%, #cf556c), to(#b12a5b));
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+#paint {
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+}
+
+#paint #tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 0;
+  height: 10%;
+  background: silver;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#paint #tools #selected {
+  height: 30px;
+  width: 80px;
+  border: 1px solid white;
+  margin: 0 2px 0 100px;
+  border-radius: 20px;
+}
+
+#paint #tools #selected:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#paint #tools #text-selected {
+  margin: 0 5px;
+}
+
+#paint #tools #color {
+  margin: 0 10px;
+}
+
+#paint #board {
+  height: 90%;
+  width: 100%;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
